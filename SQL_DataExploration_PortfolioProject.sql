@@ -4,16 +4,16 @@ Tesla's Casualties Data Cleaning&Exploration Project
 
 
 --------------- Skills used -------------
---	CTE(Common table expressions)		V
---	RegEX(Regular expressions)			V
---	Temporary Tables					V
---	Windows Functions					V
---	Pivoting							V
---	Creating Views					    V
---	Converting Data Types				V
---	Declaring variables using t-sql		V
---  Scalar functions					V
---  DDL,DML							    V
+--	CTE(Common table expressions)		
+--	RegEX(Regular expressions)			
+--	Temporary Tables					
+--	Windows Functions					
+--	Pivoting						
+--	Creating Views					    
+--	Converting Data Types				
+--	Declaring variables using t-sql		
+--      Scalar functions					
+--      DDL,DML							    
 
 
 */
@@ -287,7 +287,7 @@ select * from [Tesla Deaths - Deaths (3)]
 select DATEDIFF(YY,MIN(tdd.date),MAX(tdd.date)) as 'Number of Years',
 count(*) as 'Total acidents',
 SUM(tdd.Deaths) as 'Total deaths',
-round(cast(SUM(tdd.Deaths) as float)/cast(count(*) as float),2) as 'Deaths pe Accident',
+round(cast(SUM(tdd.Deaths) as float)/cast(count(*) as float),2) as 'Average deaths per Accident',
 round(cast(SUM(tdd.Deaths) as float)/ cast(DATEDIFF(YY,MIN(tdd.date),MAX(tdd.date)) as float), 2) as 'Average number of deaths per year'
 from [Tesla Deaths - Deaths (3)] as tdd
 
