@@ -7,7 +7,7 @@ This dataset reveals an in-depth analysis of tragic Tesla vehicle accidents that
 It contains an extensive amount of information related to the fatal incidents including the date and location of each crash,
 model type involved and if Autopilot was enabled at the time. 
 
-Link to DataSet: 
+Link to DataSet:  https://github.com/SashaShen3/DataAnalystPortfolioProjects/blob/main/Tesla%20Deaths%20-%20Deaths%20(3).csv
 
 
 --------------- Skills used -------------
