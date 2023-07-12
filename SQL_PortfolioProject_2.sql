@@ -16,12 +16,12 @@
 	Link to DataBase: https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2019.bak
 
 	Skills used:  Table Joining
-				  CTE(Common table expressions)
-				  Pivoting
-				  Group Functions
-				  Scalar Functions
-				  Window Functions
-				  Data type casting
+		      CTE(Common table expressions)
+		      Pivoting
+		      Group Functions
+		      Scalar Functions
+		      Window Functions
+		      Data type casting
 				 
 */
 
