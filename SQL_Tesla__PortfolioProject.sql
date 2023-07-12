@@ -2,6 +2,13 @@
 
 Tesla's Casualties Data Cleaning&Exploration Project
 
+About DataSet:
+This dataset reveals an in-depth analysis of tragic Tesla vehicle accidents that have resulted in the death of a driver, occupant, cyclist, or pedestrian.
+It contains an extensive amount of information related to the fatal incidents including the date and location of each crash,
+model type involved and if Autopilot was enabled at the time. 
+
+Link to DataSet: 
+
 
 --------------- Skills used -------------
 --	CTE(Common table expressions)		
